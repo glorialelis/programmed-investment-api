@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using CompraProgramada.Application;
+using CompraProgramada.Application.Services;
 
 namespace CompraProgramada.API.Controllers;
 

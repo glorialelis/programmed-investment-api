@@ -7,7 +7,7 @@ public class Cliente
     public string Email { get; private set; }
     public DateTime DataCadastro { get; private set; }
 
-    // Construtor para EF Core
+    // Construtor usado pelo EF
     private Cliente() { }
 
     public Cliente(string nome, string email)

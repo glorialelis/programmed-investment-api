@@ -1,4 +1,4 @@
-using CompraProgramada.Application.Services;
+namespace CompraProgramada.Application.Services;
 
 using CompraProgramada.Domain.Entities;
 using CompraProgramada.Infrastructure.Data;
@@ -28,4 +28,14 @@ public class ClienteService
 
         return cliente;
     }
+
+    public object ObterCestaRecomendada()
+{
+    return new[]
+    {
+        new { Ativo = "PETR4", Peso = 0.4 },
+        new { Ativo = "VALE3", Peso = 0.3 },
+        new { Ativo = "ITUB4", Peso = 0.3 }
+    };
+}
 }
